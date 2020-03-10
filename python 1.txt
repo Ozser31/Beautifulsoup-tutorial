@@ -1,0 +1,54 @@
+https://repl.it/languages/python3
+
+https://discord.gg/4555JS
+4 5 5 J S
+
+
+
+
+title = 'program penghitung kecepatan kendaraan'
+print(title)
+jarak = 17000 # 17km 
+waktu = 1 * 60 * 60 # perjam 
+
+kecepatan = jarak / waktu
+print ('kecepatan kendaraaan', kecepatan, 'm/s')
+
+batas_kecepatan = 3 # 3 meter/detik
+print('batas kecepatan', batas_kecepatan, 'm/s')
+
+if kecepatan > batas_kecepatan :
+  print('velocity warning!')
+else:
+  print('safe velocity, good job!')
+
+print('Tentang Perulangan')
+jumlah_mahasiswa = 49
+print(1)
+print(2)
+# dst jika tanpa perulangan
+
+for i in range(1, 50): #jumlah 50 - 1 = 49
+  print(i)
+
+  # tipe data array / list / daftar
+  teman = ['zaky', 'imelda', 'munajat', 'dian']
+  print(teman)
+
+  for t in teman :
+    if t == 'munajat' : 
+      print('yoo', t)
+    else: 
+      print(t)
+
+print('teman pertama', teman[0])
+print('teman terakhir', teman[ len (teman)-1]) # len = mengembalikan panjang array, basis 1. 
+
+# TIPE DATA DICTIONARY / JSON 
+
+transportation = {}
+transportation['mobil'] = 'car'
+transportation['sepeda motor'] = 'motorcycle'
+transportation['pesawat terbang'] ='airplane'
+
+print(transportation)
